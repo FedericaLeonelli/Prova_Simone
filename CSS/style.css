@@ -1,0 +1,140 @@
+
+/******************************* GENERAL *********/
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+body {
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	margin: 0;                                                     
+}
+
+h3 {
+	color: #839fc4;
+}
+
+ul {
+	list-style: none;
+}
+
+/******************************* HEADER *********/
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;	
+}
+
+nav {
+	background-color: #839fc4;
+	text-align: right;
+	}
+
+nav ul {
+	padding: 20px 0px;
+	width: 90%;
+	margin: 0 auto;
+	text-align: right;
+}
+nav li {
+	
+	color: #fff;
+	margin: 0px;
+}
+
+/******************************* CONTENT *********/
+
+main {
+	width: 100%;
+	
+}
+
+main section {
+	display: block;
+}
+
+#container {
+	padding-top: 58px;
+}
+
+/****** HOME ******/
+
+#home {
+	background-image: url("prova-pic-1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 10px;
+	height: 600px;
+	position: relative;
+	}
+
+#blocco-home  {
+	width: 80%;
+	position: absolute;
+	text-align: left;	
+}	
+
+#titolo h1 {
+	color: #22aa22;
+	font-size: 52px;
+}
+
+/****** CORPO ******/
+
+#content {
+	padding: 0px 20px;
+	width: 70%;
+	margin: 0 auto;
+
+}
+
+#simone .simone-block {
+	display: inline-block;
+}
+
+footer {
+	width: 70%;
+	margin: 0 auto;
+	padding: 20 0px;
+}
+
+
+
+/******************************* MEDIA Q *********/
+
+@media only screen and (min-width: 414px) {
+											
+						nav {
+							text-align: center;
+						}
+						nav li {
+							margin: 0px 10px 0px 10px;
+						}
+						#blocco-home  {
+							width: 45%;
+							position: absolute;
+							text-align: right;
+						}
+						
+
+}
+
+@media only screen and (min-width: 768px) {
+						nav li {
+						display: inline-block;
+						margin: 0px 10px 0px 10px;
+						}
+						
+}
+
+@media only screen and (max-width: 767px) {
+					#container {
+						padding-top: 148px;
+						}
+					}	
+}
+
