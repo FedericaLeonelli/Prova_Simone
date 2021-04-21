@@ -4,19 +4,18 @@
 a {
 	color: #fff;
 	text-decoration: none;
-	font-size: 13px;
+	
 }
 body {
 	font-family: Lato, Arial, Helvetica, sans-serif;
-	margin: 0;                                                     
+	margin: 0;   
+	display: block;                                                  
 }
 
-h3 {
-	color: #839fc4;
-}
 
 ul {
 	list-style: none;
+	margin: 0px;
 }
 
 /******************************* HEADER *********/
@@ -29,7 +28,7 @@ header {
 }
 
 nav {
-	background-color: #a6968b;
+	background-color: #c3243c;
 	text-align: right;
 	}
 
@@ -40,7 +39,7 @@ nav ul {
 	text-align: right;
 }
 nav li {
-	
+	font-size: 16px;
 	color: #fff;
 	margin: 0px;
 	display: inline-block;
@@ -66,31 +65,45 @@ main section {
 /****** HOME ******/
 
 #home {
-	background-image: url("prova-pic-1.jpg");
+	background-image: url("Simone-home1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding: 10px;
-	height: 600px;
-	position: relative;
+	height: auto;
+	padding: 20px;
+	
+	}
+
+#titolo {
+	
+}
+
+#titolo img {
+	padding: 10px 0px 50px 0px;
+	width: 60%;
 	}
 
 #payoff {
 	width: 60%;
-	font-size: 24px;
+	
 }
 
-#blocco-home  {
-	width: 80%;
-	position: absolute;
-	top: 45%;
-	left: 10%;
-	text-align: left;
+#payoff p {
+	font-size: 24px;
+	color: #fff;
+	padding: 20px 0px 40px 0px;
+	margin: 0px;
 }	
 
-#titolo h1 {
+
+#continua p {
 	color: #fff;
-	font-size: 82px;
+	font-size: 20px;
+	font-style: italic;
+	color: #c3243c;
+	text-align: center;
+	margin: 0px;
+	padding: 50px 0 40px 0;
 }
 
 /****** CORPO ******/
@@ -98,8 +111,9 @@ main section {
 #content {
 	padding: 0px;
 	margin: 0 auto;
+	display: block;
 
-}
+	}
 
 #simone {
 	background-color: #f0f0f0;
@@ -135,199 +149,171 @@ main section {
 	
 }
 
-footer {
-	width: 70%;
+#bottom {
+	background-color: #f0f0f0;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#info {
 	margin: 0 auto;
-	padding: 20px 0px;
+}
+
+#info ul {
+	line-height: 24px;
+	padding: 0px;
+
+}
+
+#info a {
+	color: #000;
+}
+
+.social img {
+	padding: 20px 15px 0px 0px;
 }
 
 
+
+footer {
+	background-color: #808080;
+	margin: 0 auto;
+	padding: 5px 0px;
+}
+
+#ringraziamenti {
+	
+	color: #737070;
+	width: 95%;
+	text-align: center;
+
+}
+
+#ringraziamenti h3 {
+	color: #f0f0f0;
+}
+
+#lista {
+	color: #f0f0f0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
 /******************************* MEDIA Q *********/
 
 
 @media screen and (max-width: 320px){
+	#titolo img {
+	padding: 10px 0px 50px 0px;
+	width: 100%;
+	}
 
-			#home {
-			height: 420px;
-			}
-			#payoff p {
-			font-size: 16px;
-			width: 100%;
-			position: absolute;
-			}
-			#titolo h1 {
-			font-size: 50px;
-			position: absolute;
-			top: 40px;
-			}
-			#simone .simone-block {
-			width: 85%;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			margin: 0 auto;
-			}
-			.simone-pic img {
-			width: 230px;
-			}
-			.simone-txt {
-			text-align: center;
-			padding: 20px 0px 20px 0px;
-			}
-			
+#payoff {
+	width: 90%;
+	
+}
+
+#payoff p {
+	font-size: 24px;
+	color: #fff;
+	padding: 20px 0px 40px 0px;
+	margin: 0px;
+}	
+					
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px){
+	#titolo img {
+	padding: 10px 0px 50px 0px;
+	width: 100%;
+	}
 
-			#home {
-			height: 500px;
-			}
-			#blocco-home  {
-			position: absolute;
-			top: 55%;
-			left: 7%;
-			text-align: left;
-			}
-			#payoff p {
-			font-size: 16px;
-			width: 100%;
-			position: absolute;
-			}
-			#titolo h1 {
-			font-size: 50px;
-			position: absolute;
-			top: 40px;
-			}
-			#simone .simone-block {
-			width: 80%;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			margin: 0 auto;
-			}
-			.simone-pic img {
-			width: 230px;
-			}
-			.simone-txt {
-			padding-left: 0px;
-			text-align: center;
-			}
+#payoff {
+	width: 90%;
+	
+}
+
+#payoff p {
+	font-size: 24px;
+	color: #fff;
+	padding: 20px 0px 40px 0px;
+	margin: 0px;
+}	
+			
 }
 
 @media screen and (min-width: 481px) and (max-width: 600px){
+	#titolo img {
+	padding: 10px 0px 50px 0px;
+	width: 90%;
+	}
 
-			#home {
-			height: 500px;
-			}
-			#blocco-home  {
-			position: absolute;
-			top: 55%;
-			left: 7%;
-			text-align: left;
-			}
-			#payoff p {
-			font-size: 16px;
-			width: 100%;
-			position: absolute;
-			}
-			#titolo h1 {
-			font-size: 50px;
-			position: absolute;
-			top: 40px;
-			}
-			#simone .simone-block {
-			width: 80%;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			margin: 0 auto;
-			}
-			.simone-pic img {
-			width: 230px;
-			}
-			.simone-txt {
-			padding-left: 0px;
-			text-align: center;
-			}
+#payoff {
+	width: 90%;
+	
+}
+
+#payoff p {
+	font-size: 24px;
+	color: #fff;
+	padding: 20px 0px 40px 0px;
+	margin: 0px;
+}	
+			
 }
 
 @media screen and (min-width: 601px) and (max-width: 768px){
+	#titolo img {
+	padding: 10px 0px 50px 0px;
+	width: 60%;
+	}
 
-			#home {
-			height: 600px;
-			}
-			#blocco-home  {
-			position: absolute;
-			top: 55%;
-			left: 10%;
-			text-align: left;
-			width: 70%;
-			}
-			#payoff p {
-			font-size: 16px;
-			width: 70%;
-			position: absolute;
-			}
-			#titolo h1 {
-			font-size: 60px;
-			position: absolute;
-			top: 40px;
-			width: 60%;
-			}
-			#simone .simone-block {
-			width: 70%;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			margin: 0 auto;
-			}
-			.simone-pic img {
-			width: 230px;
-			}
-			.simone-txt {
-			padding-left: 0px;
-			text-align: center;
-			}
+#payoff {
+	width: 70%;
+	
+}
+
+#payoff p {
+	font-size: 24px;
+	color: #fff;
+	padding: 20px 0px 40px 0px;
+	margin: 0px;
+}	
+			
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
+	#titolo img {
+	padding: 0px 0px 50px 0px;
+	width: 50%;
+	}
 
-			#home {
-			height: 600px;
-			}
-			#blocco-home  {
-			position: absolute;
-			top: 50%;
-			left: 10%;
-			text-align: left;
-			width: 60%;
-			}
-			#payoff p {
-			font-size: 16px;
 			
-			position: absolute;
-			}
-			#titolo h1 {
-			font-size: 80px;
-			position: absolute;
-			top: 40px;
-			}
-			#simone .simone-block {
-			width: 70%;
-			}
-			.simone-pic img {
-			width: 260px;
-			}
-			.simone-txt {
-			padding-left: 40px;
-			text-align: left;
-			}
 
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px){
+	
+	#titolo img {
+	padding: 0px 0px 50px 0px;
+	width: 50%;
+	}
 
+	#payoff p {
+	padding: 90px 0px 40px 0px;
+
+
+}
+
+@media screen and (min-width: 1201px){
+	#titolo img {
+	padding: 0px 0px 50px 0px;
+	width: 40%;
+	}
 }
 
 
