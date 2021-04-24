@@ -294,9 +294,10 @@ footer {
 @media screen and (max-width: 500px){
 	nav li {
 		display: block;
+		line-height: 32px;
 	}
 	main {
-		padding-top: 109px;
+		padding-top: 134px;
 	}
 	
 	#home {
