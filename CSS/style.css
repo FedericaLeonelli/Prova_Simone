@@ -60,15 +60,15 @@ nav li {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding: 40px 20px 20px 40px;
-	
+	padding: 40px 20px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	}
 
 #titolo img {
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0px 50px 30px;
 	width: 58%;
 	}
 
@@ -281,17 +281,20 @@ footer {
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
 		#home {
-			min-height: 600px;
+			min-height: 800px;
 		}
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px){
 	#home {
-		min-height: 1600px;
+		min-height: 1000px;
 	}
 }
 
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1201px){
+	#home {
+			min-height: 800px;
+	}
 	#titolo img {
 	width: 48%;
 	}
