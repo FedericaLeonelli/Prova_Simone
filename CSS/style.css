@@ -269,6 +269,7 @@ footer {
 	
 	#home {
 		padding: 20px;
+		height: 600px;
 	}
 
 	#titolo img {
@@ -295,7 +296,7 @@ footer {
 	justify-content: space-between;
 	}
 	.Fabio {
-	padding-bottom: 60px;
+	
 	}
 	#foto-fabio {
 	flex: 1 1 40%;
@@ -314,7 +315,7 @@ footer {
 	}
 
 	.Nicole {
-	padding: 60px 0px 0px 0px;
+	padding: 80px 0px 0px 0px;
 	}
 	#foto-nicole {
 	flex: 1 1 40%;
@@ -334,7 +335,7 @@ footer {
 	}
 
 	.Simone {
-	padding: 60px 0px;
+	padding: 80px 0px;
 	}
 	#foto-simo {
 	flex: 1 1 40%;
@@ -354,6 +355,19 @@ footer {
 	}				
 
 @media screen and (min-width: 501px) and (max-width: 934px){
+	#home {
+		padding: 20px;
+		height: 800px;
+	}
+		#titolo img {
+		padding: 10px;
+		width: 80%;
+	}
+	#payoff {
+		width: 90%;
+	}
+
+
 	#simone-fabio-nicole {
 	padding: 40px 0px 40px 0px;
 	display: flex;
