@@ -2,7 +2,6 @@
 /******************************* GENERAL *********/
 
 a {
-	color: #fff;
 	text-decoration: none;
 	
 }
@@ -51,6 +50,10 @@ nav li {
 	margin: 0px;
 	display: inline-block;
 	padding: 0 25px;
+}
+
+nav a {
+	color: #fff;
 }
 
 
@@ -103,7 +106,7 @@ nav li {
 
 
 #container {
-	padding: 60px 0px 0px 0px;
+	
 	margin: 0 auto;
 	width: 100%;
 	}
@@ -111,7 +114,8 @@ nav li {
 #chi-siamo {
 	max-width: 80%;
 	margin: 0 auto;
-}
+	padding: 60px 0px;
+	}
 
 #chi-siamo h1 {
 	padding: 0 0 30px 0px;
@@ -199,6 +203,34 @@ nav li {
 	width: 200px;
 	border-radius: 100px;
 }
+
+/****** progetto ******/
+
+#progetto {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 60px 0px;
+	text-align: center;
+	}
+#progetto h1 {
+	padding: 0 0 30px 0px;
+	font-size: 52px;
+	color: #c3243c;
+	margin: 0;
+}	
+
+#progetto a {
+	text-decoration: none;
+	color: #c3243c;
+}
+
+#copertina {
+	margin: 0 auto;
+	padding: 40px 20px;
+	height: 700px;
+	margin: 0 auto;
+	}
+
 
 /****** Contatti ******/
 
@@ -515,4 +547,25 @@ footer {
 	margin-top: 0;
 	}
 
+}
+
+@media screen and (min-width: 1500px){
+	#home {
+		padding: 20px;
+		height: 800px;
+	}
+
+	#titolo img {
+		padding: 10px;
+		width: 43%;
+	}
+	#payoff {
+		width: 65%;
+	}
+	#chi-siamo {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+	#simone-fabio-nicole .blocco {
+		padding: 0px 30px;
 }
