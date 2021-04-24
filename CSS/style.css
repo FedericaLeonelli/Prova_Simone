@@ -260,9 +260,23 @@ footer {
 
 
 @media screen and (max-width: 500px){
+	nav li {
+		display: block;
+	}
+	main {
+		padding-top: 109px;
+	}
+	
+	#home {
+		padding: 20px;
+	}
+
 	#titolo img {
-	padding: 10px 0px 50px 30px;
-	width: 90%;
+		padding: 10px;
+		width: 90%;
+	}
+	#payoff {
+		width: 90%;
 	}
 	#payoff p {
 		padding-bottom: 20px;
@@ -285,7 +299,7 @@ footer {
 	}
 	#foto-fabio {
 	flex: 1 1 40%;
-	text-align: left;
+	text-align: center;
 	}
 	#foto-fabio img {
 	width: 90%;
@@ -304,7 +318,7 @@ footer {
 	}
 	#foto-nicole {
 	flex: 1 1 40%;
-	text-align: right;
+	text-align: center;
 	}
 	#foto-nicole img {
 	width: 90%;
@@ -313,7 +327,7 @@ footer {
 	#testo-N {
 	flex: 2 1 60%;
 	padding-top: 20px;
-	text-align: right;
+	
 	}
 	#testo-n h3 {
 	margin-top: 0;
@@ -324,7 +338,7 @@ footer {
 	}
 	#foto-simo {
 	flex: 1 1 40%;
-	text-align: left;
+	text-align: center;
 	}
 	#foto-simo img {
 	width: 90%;
