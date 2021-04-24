@@ -6,9 +6,10 @@ a {
 	text-decoration: none;
 	
 }
-body {
+html, body {
 	font-family: Lato, Arial, Helvetica, sans-serif;
 	margin: 0; 
+	height: 100%;
 
 }
 
@@ -20,6 +21,7 @@ ul {
 
 main {
 	padding-top: 58px;
+
 }
 
 /******************************* HEADER *********/
@@ -61,7 +63,9 @@ nav li {
 	background-position: center;
 	background-size: cover;
 	padding: 40px 20px;
-	width: 100%;
+	width: 90%;
+	height: 700px;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -69,7 +73,7 @@ nav li {
 
 #titolo img {
 	padding: 10px 0px 50px 30px;
-	width: 58%;
+	width: 50%;
 	}
 
 #payoff {
@@ -136,23 +140,6 @@ nav li {
 #foto-simo {
 	text-align: center;
 }
-/****** Simone ******/
-
-.Simone {
-	padding: 0px 15px;
-	display: flex;
-	flex-direction: column;
-	
-	}
-
-#foto-simo {
-	text-align: center;
-}
-
-#foto-simo img {
-	width: 200px;
-	border-radius: 100px;
-}
 
 /****** Fsbio ******/
 
@@ -194,6 +181,23 @@ nav li {
 
 .Nicole a {
 	color: #000;	
+}
+
+/****** Simone ******/
+
+.Simone {
+	padding: 0px 15px;
+	display: flex;
+	flex-direction: column;
+	}
+
+#foto-simo {
+	text-align: center;
+}
+
+#foto-simo img {
+	width: 200px;
+	border-radius: 100px;
 }
 
 /****** Contatti ******/
@@ -255,49 +259,232 @@ footer {
 /******************************* MEDIA Q *********/
 
 
-@media screen and (max-width: 320px){
-		#home {
-		min-height: 900px;
-	}				
-}
-
-@media screen and (min-width: 321px) and (max-width: 480px){
-		#home {
-			min-height: 900px;
-		}
-}
-
-@media screen and (min-width: 481px) and (max-width: 600px){
-		#home {
-			min-height: 900px;
-		}
-}
-
-@media screen and (min-width: 601px) and (max-width: 768px){
-		#home {
-			min-height: 800px;
-		}
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
-		#home {
-			min-height: 800px;
-		}
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1200px){
-	#home {
-		min-height: 1000px;
-	}
-}
-
-@media screen and (min-width: 1201px){
-	#home {
-			min-height: 800px;
-	}
+@media screen and (max-width: 500px){
 	#titolo img {
-	width: 48%;
+	padding: 10px 0px 50px 30px;
+	width: 90%;
 	}
+	#payoff p {
+		padding-bottom: 20px;
+	}
+	#chi-siamo h1 {
+	padding: 0 0 30px 0px;
+	font-size: 48px;
+	text-align: center;
 }
 
+	#simone-fabio-nicole {
+	padding: 40px 0px 40px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	}
+	.Fabio {
+	padding-bottom: 60px;
+	}
+	#foto-fabio {
+	flex: 1 1 40%;
+	text-align: left;
+	}
+	#foto-fabio img {
+	width: 90%;
+	border-radius: 100%;
+	}
+	#testo-F {
+	flex: 2 1 60%;
+	padding-top: 20px;
+	}
+	#testo-F h3 {
+	margin-top: 0;
+	}
 
+	.Nicole {
+	padding: 60px 0px 0px 0px;
+	}
+	#foto-nicole {
+	flex: 1 1 40%;
+	text-align: right;
+	}
+	#foto-nicole img {
+	width: 90%;
+	border-radius: 100%;
+	}
+	#testo-N {
+	flex: 2 1 60%;
+	padding-top: 20px;
+	text-align: right;
+	}
+	#testo-n h3 {
+	margin-top: 0;
+	}
+
+	.Simone {
+	padding: 60px 0px;
+	}
+	#foto-simo {
+	flex: 1 1 40%;
+	text-align: left;
+	}
+	#foto-simo img {
+	width: 90%;
+	border-radius: 100%;
+	}
+	#testo-S {
+	flex: 2 1 60%;
+	padding-top: 20px;
+	}
+	#testo-S h3 {
+	margin-top: 0;
+	}		
+	}				
+
+@media screen and (min-width: 501px) and (max-width: 934px){
+	#simone-fabio-nicole {
+	padding: 40px 0px 40px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	}
+	.Fabio {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 50px;
+	}
+	#foto-fabio {
+	flex: 1 1 40%;
+	text-align: left;
+	}
+	#foto-fabio img {
+	width: 90%;
+	border-radius: 100%;
+	}
+	#testo-F {
+	flex: 2 1 60%;
+	padding-top: 50px;
+	}
+	#testo-F h3 {
+	margin-top: 0;
+	}
+
+	.Nicole {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 50px 0px;
+	}
+	#foto-nicole {
+	flex: 1 1 40%;
+	text-align: right;
+	}
+	#foto-nicole img {
+	width: 90%;
+	border-radius: 100%;
+	}
+	#testo-N {
+	flex: 2 1 60%;
+	padding-top: 50px;
+	text-align: right;
+	}
+	#testo-n h3 {
+	margin-top: 0;
+	}
+
+	.Simone {
+	display: flex;
+	flex-direction: row;
+	padding: 50px 0px;
+	}
+	#foto-simo {
+	flex: 1 1 40%;
+	text-align: left;
+	}
+	#foto-simo img {
+	width: 90%;
+	border-radius: 100%;
+	}
+	#testo-S {
+	flex: 2 1 60%;
+	padding-top: 50px;
+	}
+	#testo-S h3 {
+	margin-top: 0;
+	}		
+}
+
+@media screen and (min-width: 935px) and (max-width: 1080px){
+	 
+
+
+	#simone-fabio-nicole {
+	padding: 40px 0px 40px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	}
+	.Fabio {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 50px;
+	}
+	#foto-fabio {
+	flex: 1 1 40%;
+	text-align: left;
+	}
+	#foto-fabio img {
+	width: 90%;
+	border-radius: 100%;
+	}
+	#testo-F {
+	flex: 2 1 60%;
+	padding-top: 50px;
+	}
+	#testo-F h3 {
+	margin-top: 0;
+	}
+
+	.Nicole {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 50px 0px;
+	}
+	#foto-nicole {
+	flex: 1 1 40%;
+	text-align: right;
+	}
+	#foto-nicole img {
+	width: 90%;
+	border-radius: 100%;
+	}
+	#testo-N {
+	flex: 2 1 60%;
+	padding-top: 50px;
+	text-align: right;
+	}
+	#testo-n h3 {
+	margin-top: 0;
+	}
+
+	.Simone {
+	display: flex;
+	flex-direction: row;
+	padding: 50px 0px;
+	}
+	#foto-simo {
+	flex: 1 1 40%;
+	text-align: left;
+	}
+	#foto-simo img {
+	width: 90%;
+	border-radius: 100%;
+	}
+	#testo-S {
+	flex: 2 1 60%;
+	padding-top: 50px;
+	}
+	#testo-S h3 {
+	margin-top: 0;
+	}
+
+}
