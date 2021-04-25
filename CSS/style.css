@@ -8,7 +8,7 @@ a {
 html, body {
 	font-family: Lato, Arial, Helvetica, sans-serif;
 	margin: 0; 
-	height: 100%;
+	
 
 }
 
@@ -20,6 +20,7 @@ ul {
 
 main {
 	padding-top: 58px;
+	width: 100%;
 
 }
 
@@ -92,15 +93,6 @@ nav a {
 	text-align: center;
 }	
 
-#continua p {
-	color: #fff;
-	font-size: 20px;
-	font-style: italic;
-	color: #c3243c;
-	text-align: center;
-	margin: 0px;
-	padding: 50px 0 40px 0;
-}
 
 /******************************* CONTENT *********/
 
@@ -241,6 +233,7 @@ nav a {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	width: 100%;
 }
 
 #info {
@@ -265,7 +258,7 @@ nav a {
 
 footer {
 	background-color: #808080;
-	margin: 0 auto;
+	width: 100%;
 	padding: 5px 0px;
 }
 
@@ -274,7 +267,7 @@ footer {
 	color: #737070;
 	width: 95%;
 	text-align: center;
-
+	margin: 0 auto;
 }
 
 #lista {
@@ -290,7 +283,6 @@ footer {
 div.thx1 img {
 	width: 80px;
 }
-
 div.thx2 img {
 	width: 120px;
 }
@@ -313,7 +305,7 @@ div.thx3 img {
 	#home {
 		padding: 20px;
 		height: 600px;
-	}
+		}
 
 	#titolo img {
 		padding: 10px;
@@ -325,12 +317,15 @@ div.thx3 img {
 	#payoff p {
 		padding-bottom: 20px;
 	}
+
+	#container {
+		width: 100%;
+	}
 	#chi-siamo h1 {
 	padding: 0 0 30px 0px;
 	font-size: 48px;
 	text-align: center;
-}
-
+	}
 	#simone-fabio-nicole {
 	padding: 40px 0px 40px 0px;
 	display: flex;
@@ -394,8 +389,29 @@ div.thx3 img {
 	}
 	#testo-S h3 {
 	margin-top: 0;
-	}		
-	}				
+	}
+
+	#bottom {
+		width: 100%;
+	}
+
+	#footer {
+		width: 100%;
+	}
+	#lista {
+	max-width: 100%;
+	margin: 0 auto;
+	}
+	div.thx1 img {
+	width: 50px;
+	}
+	div.thx2 img {
+		width: 73px;
+	}
+	div.thx3 img {
+		width: 80px;
+	}
+}				
 
 @media screen and (min-width: 501px) and (max-width: 934px){
 	#home {
