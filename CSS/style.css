@@ -261,7 +261,7 @@ nav a {
 	padding: 20px 15px 0px 0px;
 }
 
-
+/********* ringraziamenti ***********/
 
 footer {
 	background-color: #808080;
@@ -279,13 +279,23 @@ footer {
 
 #lista {
 	color: #f0f0f0;
+	max-width: 90%;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: center;
 }
 
-#lista h3 {
-	color: #f0f0f0;
+div.thx1 img {
+	width: 80px;
+}
+
+div.thx2 img {
+	width: 120px;
+}
+div.thx3 img {
+	width: 140px;
 }
 
 /******************************* MEDIA Q *********/
