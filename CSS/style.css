@@ -149,7 +149,8 @@ nav a {
 	width: 200px;
 	border-radius: 100px;
 }
-
+#leggi-f {
+	display: none;}
 
 /****** Nicole ******/
 
@@ -174,6 +175,9 @@ nav a {
 	color: #000;	
 }
 
+#leggi-n {
+	display: none;}
+
 /****** Simone ******/
 
 .Simone {
@@ -190,6 +194,9 @@ nav a {
 	width: 200px;
 	border-radius: 100px;
 }
+
+#leggi-s {
+	display: none;}
 
 /****** progetto ******/
 
