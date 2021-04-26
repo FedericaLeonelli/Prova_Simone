@@ -1,27 +1,23 @@
 
 /******************************* GENERAL *********/
 
-a {
-	text-decoration: none;
-	
-}
-html, body {
+html body {
 	font-family: Lato, Arial, Helvetica, sans-serif;
-	margin: 0; 
 	
-
 }
 
+a {
+	text-decoration: none;	
+}
 
 ul {
 	list-style: none;
-	margin: 0px;
+	margin: 0;
 }
 
 main {
 	padding-top: 58px;
 	width: 100%;
-
 }
 
 /******************************* HEADER *********/
@@ -44,13 +40,14 @@ nav ul {
 	width: 90%;
 	margin: 0 auto;
 	text-align: right;
+	
 }
 nav li {
 	font-size: 20px;
 	color: #fff;
 	margin: 0px;
-	display: inline-block;
 	padding: 0 25px;
+	display: inline-block;
 }
 
 nav a {
@@ -98,9 +95,7 @@ nav a {
 
 
 #container {
-	
-	margin: 0 auto;
-	width: 100%;
+	width: 100%
 	}
 
 #chi-siamo {
@@ -233,7 +228,7 @@ nav a {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 100%;
+	
 }
 
 #info {
@@ -294,6 +289,7 @@ div.thx3 img {
 
 
 @media screen and (max-width: 500px){
+	
 	nav li {
 		display: block;
 		line-height: 32px;
@@ -319,7 +315,7 @@ div.thx3 img {
 	}
 
 	#container {
-		width: 100%;
+		
 	}
 	#chi-siamo h1 {
 	padding: 0 0 30px 0px;
