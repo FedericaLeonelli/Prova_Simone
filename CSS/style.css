@@ -295,7 +295,7 @@ div.thx3 img {
 		line-height: 32px;
 	}
 	main {
-		padding-top: 134px;
+		padding-top: 200px;
 
 	}
 	
@@ -412,6 +412,11 @@ div.thx3 img {
 }				
 
 @media screen and (min-width: 501px) and (max-width: 934px){
+	nav li {
+	padding: 0 12px;
+
+}
+
 	#home {
 		padding: 20px;
 		height: 800px;
